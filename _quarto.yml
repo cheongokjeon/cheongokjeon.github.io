@@ -1,0 +1,53 @@
+project:
+  type: website
+
+website:
+  title: "Why So Spatial?"
+  description: "All about where they are, why they are, who they are"
+  favicon: themockup.png
+  image: themockup.png
+  repo-url: https://github.com/lophital/WSS
+  open-graph: true
+  twitter-card:
+    image: themockup.png
+    creator: "@biogeojeon"
+    card-style: summary_large_image
+  site-url: https://whysospatial.netlify.app
+  navbar:
+    search: true
+    right:
+      - text: "Blog"
+        file: index.qmd
+      - text: "Resources"
+        file: static/resources/resources.qmd
+      - text: "About"
+        file: about.qmd
+      - icon: github
+        href: https://github.com/lophital
+      - icon: twitter
+        href: https://twitter.com/biogeojeon
+      - icon: rss
+        href: index.xml
+      - icon: cup-straw
+        href: https://www.buymeacoffee.com/cheongok
+format:
+  html:
+    twitter-card:
+      creator: "@biogeojeon"
+      image: "https://themockup.blog/themockup.png"
+      card-style: summary_large_image
+    comments:
+      utterances:
+        repo: lophital/WSS
+    toc: true
+    toc-location: "left"
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    mainfont: "Lato"
+    monofont: "Fira Mono"
+    footnotes-hover: true
+    fontsize: 1em
+    theme: my-litera.scss
+    css: styles.css

@@ -1,0 +1,45 @@
+---
+twitter-card:
+  image: images/profile-preview.png
+  creator: "@biogeojeon"
+open-graph: true
+title: "Cheongok Jeon"
+description: |
+  Getting to know the people are rare. 
+  The people who care about you.  
+  The people who polite to you.  
+  The people who helps you.  
+  The people who don't use you for their desire.  
+image: images/profile-preview.png
+about:
+  template: trestles
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/biogeojeon
+    - icon: github
+      text: Github
+      href: https://github.com/lophital
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{=html}
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="cheongok" data-color="#5F7FFF" data-emoji=""  data-font="Lato" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+```
+<br>
+
+# Education
+
+-   Bachelor's degree from Chonnam National University
+-   Master's degree from Seoul National University
+
+## Current State
+
+Learning new things all day long.
+
+## Contact
+
+Quick and Loud - tweet `@` me [`@biogeojeon`](https://twitter.com/biogeojeon). Slow but Silent - mail `@` me [mail](mailto:cheongokjeon@gmail.com)
