@@ -2,17 +2,17 @@ project:
   type: website
 
 website:
-  title: "Why So Spatial?"
+  title: "Cheongok Jeon"
   description: "All about where they are, why they are, who they are"
   favicon: themockup.png
   image: themockup.png
-  repo-url: https://github.com/lophital/WSS
+  repo-url: https://github.com/cheongokjeon/cheongokjeon.github.io
   open-graph: true
   twitter-card:
     image: themockup.png
     creator: "@biogeojeon"
     card-style: summary_large_image
-  site-url: https://whysospatial.netlify.app
+  site-url: https://cheongokjeon.github.io/
   navbar:
     search: true
     right:
