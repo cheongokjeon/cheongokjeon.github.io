@@ -1,1 +1,0 @@
-Sitemap: https://whysospatial.netlify.app/sitemap.xml
