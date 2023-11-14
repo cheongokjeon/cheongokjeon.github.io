@@ -150,6 +150,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../../poster.qmd">
+ <span class="menu-text">Poster</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../about.html">
  <span class="menu-text">About</span></a>
   </li>  
@@ -387,9 +391,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>This cookbook attempts to walk through many of the example usecases for <code>gt</code>, and provide useful commentary around the use of the various <code>gt</code> functions. The full <a href="https://gt.rstudio.com/index.html"><code>gt</code> documentation</a> has other more succinct examples and full function arguments.</p>
 <p>For advanced use cases, make sure to check out the <a href="https://themockup.blog/static/gt-cookbook-advanced.html">Advanced Cookbook</a></p>
 </section><section id="basic-usage" class="level2"><h2 class="anchored" data-anchor-id="basic-usage">Basic Usage</h2>
-<p>To create a <a href="https://gt.rstudio.com/">gt</a> table, use <code>gt()</code> on a data frame.</p>
+<p>To create a <a href="https://gt.rstudio.com">gt</a> table, use <code>gt()</code> on a data frame.</p>
 <div class="cell">
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://gt.rstudio.com/">gt</a></span><span class="op">)</span></span>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://gt.rstudio.com">gt</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org">dplyr</a></span><span class="op">)</span></span>
 <span><span class="fu">gt</span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op">(</span><span class="va">mtcars</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">

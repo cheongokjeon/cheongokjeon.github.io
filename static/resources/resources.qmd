@@ -25,23 +25,42 @@ resources:
 
 ```{r, echo=FALSE,warning=FALSE}
 suppressPackageStartupMessages({
-  library(dplyr)
+  library(tidyverse)
   library(reactable)
 })
 
-data_in <- tibble::tribble(
-  ~Project, ~url, ~Type, ~Description,
-  "Intro Urban Tables", "https://themockup.blog//static/slides/intro-tables-urban.html", "Presentation", "An overview of tables for Urban Institute",
-  "#TidyTuesday", "https://github.com/rfordatascience/tidytuesday/blob/master/README.md", "Event", "A weekly data project aimed at the R ecosystem",
-  "{espnscrapeR}", "https://jthomasmock.github.io/espnscrapeR/", "Package", "A small package to scrape or collect NFL data from ESPN or NFL.com",
-  "Improving your {nflfastR} graphics", "https://jthomasmock.github.io/nfl_plotting_cookbook/", "Guide", "An in-depth guide to data visualization and techniques for play-by-play data",
-  "Intro to {tidymodels} in 15 min", "https://jthomasmock.github.io/nfl_hanic", "Presentation", "A short presentation on using `tidymodels` to predict whether the opposing team will run or pass",
-  "Intro to {tidymodels} workshop", "https://themockup.blog//static/slides/nfl-tidymodels.html", "Presentation", "A full workshop on using `tidymodels` to predict whether the opposing team will run or pass",
-  "Intro to Tables", "https://themockup.blog//static/slides/intro-tables.html", "Presentation", "A presentation on 10 best practices for creating tables with {gt}",
-  "Intro to {ggplot2} themes", "https://themockup.blog//static/slides/intro-plot.html", "Presentation", "A deep dive into {ggplot2} themes and making beautiful graphics in R"
+tibble::tribble(
+  ~Project, ~url, ~Type, ~Description, Place,
+  "Intro Urban Tables", 
+  "https://themockup.blog//static/slides/intro-tables-urban.html", 
+  "Presentation", 
+  "An overview of tables for Urban Institute",
+  "NA",
+  
+  "Intro to {tidymodels} in 15 min", "https://jthomasmock.github.io/nfl_hanic", 
+  "Presentation", 
+  "A short presentation on using `tidymodels` to predict whether the opposing team will run or pass",
+  "NA",
+  
+  "Intro to {tidymodels} workshop", 
+  "https://themockup.blog//static/slides/nfl-tidymodels.html", 
+  "Presentation", "A full workshop on using `tidymodels` to predict whether the opposing team will run or pass",
+  "NA",
+  
+  "Intro to Tables", "https://themockup.blog//static/slides/intro-tables.html", 
+  "Presentation", 
+  "A presentation on 10 best practices for creating tables with {gt}",
+  "NA",
+  
+  "Feasibility of Interpretable Machine Learning-based Species Distribution Models", 
+  "https://themockup.blog//static/slides/C5_EAFES_Jeon_Bahk.html", 
+  "Presentation", 
+  "A case of Cormorants in South Korean Rivers",
+  "EAFES 2023",
+  
 ) %>% 
   filter(Type == "Presentation") %>% 
-  select(-Type)
+  select(-Type) -> data_in
 
 data_in %>%
   reactable::reactable(
@@ -73,6 +92,3 @@ data_in %>%
   )
 ```
 
-## Random
-
-[Favorite Cocktail Recipes](https://drinksbytom.com/)
