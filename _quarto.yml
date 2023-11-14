@@ -20,6 +20,8 @@ website:
         file: index.qmd
       - text: "Resources"
         file: static/resources/resources.qmd
+      - text: "Poster"
+        file: poster.qmd
       - text: "About"
         file: about.qmd
       - icon: github
