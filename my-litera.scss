@@ -6,7 +6,7 @@ $theme: "litera" !default;
 // import google fonts
 @import url('https://fonts.googleapis.com/css2?family=Lato');
 @import url('https://fonts.googleapis.com/css2?family=Chivo');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Gaegu');
 
 // use Lato font if available
 $font-family-sans-serif:  "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
@@ -21,8 +21,8 @@ p {
 // Navs
 
 .navbar-brand {
-  font-family: "Fira Mono", mono;
-  font-size: 1.4rem;
+  font-family: "Gaegu", mono;
+  font-size: 2.4rem;
   font-weight: 900;
   color: black;
 }
@@ -30,8 +30,8 @@ p {
 // Navbar
 
 .navbar {
-  font-family: "Fira Mono", mono;
-  font-size: 1rem;
+  font-family: "Gaegu", mono;
+  font-size: 2rem;
 }
 
 $navbar-dark-hover-color:           "#ff6700" !default;

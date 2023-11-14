@@ -2,10 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato');
 @import url('https://fonts.googleapis.com/css2?family=Chivo');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Gaegu');
 
 .navbar-brand{
-  font-family: "Fira Mono";
+  font-family: "Gaegu";
 }
 
 .navbar a:hover{
@@ -13,5 +13,5 @@
 }
 
 .quarto-listing-category {
-  font-family: "Fira Mono";
+  font-family: "Gaegu";
 }

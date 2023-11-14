@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Cheongok Jeon"
+  title: "Cheongok Jeon 전청옥"
   description: "All about where they are, why they are, who they are"
   favicon: themockup.png
   image: themockup.png
@@ -13,6 +13,7 @@ website:
     creator: "@biogeojeon"
     card-style: summary_large_image
   site-url: https://cheongokjeon.github.io/
+  reader-mode: true
   navbar:
     search: true
     right:
@@ -48,7 +49,7 @@ format:
     fig-cap-location: margin
     reference-location: margin
     mainfont: "Lato"
-    monofont: "Fira Mono"
+    monofont: "Gaegu"
     footnotes-hover: true
     fontsize: 1em
     theme: my-litera.scss

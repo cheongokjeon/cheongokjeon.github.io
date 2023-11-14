@@ -30,7 +30,7 @@ suppressPackageStartupMessages({
 })
 
 tibble::tribble(
-  ~Project, ~url, ~Type, ~Description, Place,
+  ~Project, ~url, ~Type, ~Description, ~Place,
   "Intro Urban Tables", 
   "https://themockup.blog//static/slides/intro-tables-urban.html", 
   "Presentation", 
@@ -53,9 +53,15 @@ tibble::tribble(
   "NA",
   
   "Feasibility of Interpretable Machine Learning-based Species Distribution Models", 
-  "https://themockup.blog//static/slides/C5_EAFES_Jeon_Bahk.html", 
+  "https://cheongokjeon.github.io//static/slides/C5_EAFES_Jeon_Bahk.html", 
   "Presentation", 
   "A case of Cormorants in South Korean Rivers",
+  "EAFES 2023",
+  
+  "Unveiling the impact of population density in SDM", 
+  "https://cheongokjeon.github.io//static/slides/C5_EAFES_Jeon_Kim.html", 
+  "Presentation", 
+  "Response curve and variable importance could deliver misleading inference",
   "EAFES 2023",
   
 ) %>% 
