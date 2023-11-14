@@ -5,16 +5,16 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Cheongok Jeon</title>
+<title>Cheongok Jeon 전청옥</title>
 <link>https://cheongokjeon.github.io/index.html</link>
 <atom:link href="https://cheongokjeon.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>All about where they are, why they are, who they are</description>
 <image>
 <url>https://cheongokjeon.github.io/themockup.png</url>
-<title>Cheongok Jeon</title>
+<title>Cheongok Jeon 전청옥</title>
 <link>https://cheongokjeon.github.io/index.html</link>
 </image>
 <generator>quarto-1.2.267</generator>
-<lastBuildDate>Tue, 14 Nov 2023 10:28:06 GMT</lastBuildDate>
+<lastBuildDate>Tue, 14 Nov 2023 16:42:29 GMT</lastBuildDate>
 </channel>
 </rss>
