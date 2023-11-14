@@ -37,6 +37,7 @@ posts <- list.dirs(
   recursive = FALSE
 )
 
+
 # extract the slugs
 slugs <- stringr::str_remove(posts, "\\d{4}-\\d{2}-\\d{2}-(?!\\d)")
 
