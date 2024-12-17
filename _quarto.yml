@@ -50,7 +50,7 @@ format:
     fig-cap-location: margin
     reference-location: margin
     mainfont: "Lato"
-    monofont: "Gaegu"
+    monofont: "Gowun Dodum"
     footnotes-hover: true
     fontsize: 1em
     theme: my-litera.scss
