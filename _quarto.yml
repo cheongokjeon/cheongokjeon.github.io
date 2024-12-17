@@ -13,16 +13,17 @@ website:
     creator: "@biogeojeon"
     card-style: summary_large_image
   site-url: https://cheongokjeon.github.io/
-  reader-mode: true
   navbar:
     search: true
     right:
       - text: "Blog"
         file: index.qmd
-      - text: "Resources"
-        file: static/resources/resources.qmd
-      - text: "Poster"
-        file: poster.qmd
+      - text: "Researches"
+        file: static/researches/researches.qmd
+      - text: "Study"
+        file: static/study.qmd
+      - text: "Gallery"
+        file: static/gallery.qmd
       - text: "About"
         file: about.qmd
       - icon: github
@@ -41,7 +42,7 @@ format:
       card-style: summary_large_image
     comments:
       utterances:
-        repo: lophital/WSS
+        repo: cheongokjeon/cheongokjeon.github.io
     toc: true
     toc-location: "left"
     code-link: true
